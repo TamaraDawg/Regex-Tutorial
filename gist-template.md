@@ -27,10 +27,13 @@ This pattern is designed to match valid email addresses by considering the gener
 
 ### Anchors
 
+Anchors are regex components used to match specific positions within the text. In our email address regex, we utilize the word boundary anchor `\b` to ensure that the pattern matches the complete email address and does not include partial matches.
+
 ### Quantifiers
-
+Quantifiers allow us to specify the number of occurrences or range of occurrences of a specific character or group. We use the `+` quantifier in our regex pattern to indicate that the preceding character or group should occur one or more times. For example, `[A-Za-z0-9._%+-]+` ensures that the local part of the email address contains one or more alphanumeric characters, dots, underscores, percentage signs, plus signs, or hyphens.
 ### OR Operator
-
+ 
+ The OR operator (`|`) allows us to specify multiple alternatives in a regex pattern. However, in our email address regex, we do not utilize the OR operator.
 ### Character Classes
 
 ### Flags
