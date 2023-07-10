@@ -4,7 +4,7 @@ Welcome to the comprehensive tutorial on regular expressions (regex). In this tu
 ## Summary
 In this tutorial, we will focus on a specific regex pattern that aims to match and extract email addresses from a given text. The regex pattern we will be discussing is:
 
-\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b
+`\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b`
 
 This pattern is designed to match valid email addresses by considering the general structure and rules associated with them. We will break down this regex pattern and explain the purpose and function of each component.
 
@@ -36,12 +36,14 @@ Quantifiers allow us to specify the number of occurrences or range of occurrence
  The OR operator (`|`) allows us to specify multiple alternatives in a regex pattern. However, in our email address regex, we do not utilize the OR operator.
 ### Character Classes
 
+Character classes provide a way to match any character from a specific set. In our pattern, we use character classes such as [A-Za-z0-9] to match any uppercase or lowercase letter or digit. We also use the character class [.-] to match a dot or hyphen.
+
 ### Flags
-
+Flags modify the behavior of a regex pattern. In our tutorial, we won't be discussing flags extensively, as they are not required for our email address regex.
 ### Grouping and Capturing
-
+Grouping and capturing allow us to define subpatterns within a regex and capture their matched values. In our email address regex, we do not explicitly use grouping or capturing.
 ### Bracket Expressions
-
+Bracket expressions, also known as character sets, are used to match a single character from a specified set or range. We utilize bracket expressions in our regex pattern to match the domain part of the email address. For example, `[A-Za-z0-9.-]` matches any uppercase or lowercase letter, digit, dot, or hyphen.
 ### Greedy and Lazy Match
 
 ### Boundaries
