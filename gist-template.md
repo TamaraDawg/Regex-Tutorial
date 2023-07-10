@@ -2,8 +2,12 @@
 
 Welcome to the comprehensive tutorial on regular expressions (regex). In this tutorial, we will explore the various components of regex and provide detailed explanations of each component's purpose and functionality. Whether you are a beginner or have some experience with regex, this tutorial will help you understand and master the art of pattern matching and text manipulation.
 ## Summary
+In this tutorial, we will focus on a specific regex pattern that aims to match and extract email addresses from a given text. The regex pattern we will be discussing is:
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b
+
+This pattern is designed to match valid email addresses by considering the general structure and rules associated with them. We will break down this regex pattern and explain the purpose and function of each component.
+
 
 ## Table of Contents
 
