@@ -1,7 +1,6 @@
-# Title (replace with your title)
+# Regular Expressions: A Comprehensive Tutorial
 
-Introductory paragraph (replace this with your text)
-
+Welcome to the comprehensive tutorial on regular expressions (regex). In this tutorial, we will explore the various components of regex and provide detailed explanations of each component's purpose and functionality. Whether you are a beginner or have some experience with regex, this tutorial will help you understand and master the art of pattern matching and text manipulation.
 ## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
