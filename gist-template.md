@@ -45,13 +45,15 @@ Grouping and capturing allow us to define subpatterns within a regex and capture
 ### Bracket Expressions
 Bracket expressions, also known as character sets, are used to match a single character from a specified set or range. We utilize bracket expressions in our regex pattern to match the domain part of the email address. For example, `[A-Za-z0-9.-]` matches any uppercase or lowercase letter, digit, dot, or hyphen.
 ### Greedy and Lazy Match
-
+Greedy and lazy matching control the behavior of quantifiers. In our email address regex, we use greedy matching by default. This means that quantifiers will match as much as possible while still allowing the regex pattern to succeed.
 ### Boundaries
-
+Boundaries are used to match specific positions in the text, such as the start or end of a word. We utilize the word boundary anchor `\b` in our email address regex to ensure that the pattern matches complete email addresses and does not include partial matches.
 ### Back-references
-
+Back-references allow us to refer back to previously matched subpatterns. In our email address regex, we do not utilize back-references.
 ### Look-ahead and Look-behind
-
+Look-ahead and look-behind assertions are used to ensure that a specific pattern is followed or preceded by another pattern without including it in the match. In our email address regex, we do not utilize look-ahead or look-behind assertions.
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This tutorial was written by Tamara. You can find more useful resources and projects on my GitHub profile. Feel free to reach out with any questions or feedback.
+
+https://github.com/TamaraDawg
